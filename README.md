@@ -14,7 +14,7 @@ Response: The chat bot provides accurate and timely responses to users, deliveri
 Getting Started
 To start using Medical Chat Bot AI, follow these steps:
 
-Clone the repository: git clone https://github.com/your_username/medical-chat-bot-ai.git
+Clone the repository: git clone https://github.com/hopepoh1/MedicalChatBot.git
 Install dependencies: npm install
 Run the application: node app.js
 Demo
