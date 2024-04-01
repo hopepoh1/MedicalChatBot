@@ -1,4 +1,9 @@
 End-to-end-Medical-Chatbot-using-Llama2
+
+Bu bot medikal bilgilere sahip 700 sayfalık bir pdf'i kullanarak  kullanıcının sorularına cevap veriyor.
+
+Usage of this bot is after giving a pdf about medical stuff,user can ask anything and bot answer it from the pdf we given.
+
 ## How to run?
 STEPS:
 
