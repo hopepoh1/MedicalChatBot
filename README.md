@@ -7,25 +7,34 @@ Usage of this bot is after giving a pdf about medical stuff,user can ask anythin
 ## How to run?
 STEPS:
 
+ Repsitory'yi kopyala.
 
- First Clone the repository
+ First Clone the repository.
 
 Project repo: https://github.com/hopepoh1/MedicalChatBot.git
 
-STEP 01- Create a conda environment after opening the repository
+STEP 01- İsteğinize göre bir envoriment oluşturun.
+
+Create a conda environment after opening the repository.
 
 conda create -n medicalchatbot python=3.8 -y
 conda activate medicalchatbot
 
-STEP 02- install the requirements
+STEP 02-gerekli  kütüphaneleri indirelim.
+
+install the requirements.
 
 pip install -r requirements.txt
+
+.env dosyası oluşturalım. içine bu projede lazım olan pinecone keyinizi yazın.
 
 Create a .env file in the root directory and add your Pinecone credentials as follows:
 
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+projede kullanıcağımız LLama modelini indirelim.
 
 Download the quantize model from the link provided in model folder & keep the model in the model directory:
 ## Download the Llama 2 Model:
