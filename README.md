@@ -45,7 +45,7 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 ## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 # run the following command
-python store_index.py
+python store_index.py(biraz uzun sürecek çünkü datayı pinecone indexine kopyalıyoruz.)(its gonna take a while)
 
 # Finally run the following command
 python app.py
