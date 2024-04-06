@@ -2,7 +2,7 @@ ctransformers
 sentence-transformers
 pinecone-client
 langchain
-flask
+streamlit
 pypdf
 langchain_pinecone
 python-dotenv
