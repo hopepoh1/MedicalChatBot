@@ -17,7 +17,7 @@ STEP 01- İsteğinize göre bir envoriment oluşturun.
 
 Create a conda environment after opening the repository.
 
-conda create -n medicalchatbot python=3.8 -y
+conda create -n medicalchatbot python=3.9 -y
 conda activate medicalchatbot
 
 STEP 02-gerekli  kütüphaneleri indirelim.
